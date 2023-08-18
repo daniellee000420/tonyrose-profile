@@ -24,7 +24,7 @@ export default function Navbar() {
     { title: "Home", link: "/", icon: <FaHome /> },
     { title: "About", link: "/about", icon: <RiFolderInfoFill /> },
     { title: "Project", link: "/project", icon: <MdWork /> },
-    { title: "Contact", link: "/contact", icon: <RiContactsBook2Fill /> },
+    // { title: "Contact", link: "/contact", icon: <RiContactsBook2Fill /> },
     { title: "Blog", link: "/blog", icon: <ImBlog /> },
   ];
   const activeLink = ({ isActive }) => {
@@ -83,7 +83,7 @@ export default function Navbar() {
 
             <a
               className="inline-block ml-4"
-              href="https://drive.google.com/file/d/19rnbukAhf9oPhadMhsvI3xnWF6FIYeMT/view?usp=share_link"
+              href="https://drive.google.com/file/d/1k1xCvPtzKuugnjJR4eTWOULjpwHUGoPL/view?usp=sharing"
               target="blank"
             >
               <PrimaryBtn>
@@ -131,7 +131,7 @@ export default function Navbar() {
                 <li className="text-center m-4">
                   <a
                     className="inline-block w-full"
-                    href="https://drive.google.com/file/d/19rnbukAhf9oPhadMhsvI3xnWF6FIYeMT/view?usp=share_link"
+                    href="https://drive.google.com/file/d/1k1xCvPtzKuugnjJR4eTWOULjpwHUGoPL/view?usp=sharing"
                     target="blank"
                   >
                     <button className="primary-button w-full text-white">

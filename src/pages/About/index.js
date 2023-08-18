@@ -92,18 +92,18 @@ const About = () => {
               <h2 className="font-medium">
                 <span className="mr-2 text-primary">Name : </span>Daniel Lee
               </h2>
-              <h2 className="font-medium">
+              {/* <h2 className="font-medium">
                 <span className="mr-2 text-primary">Phone : </span>+62 823 6148 4992
-              </h2>
+              </h2> */}
               <h2 className="font-medium">
                 <span className="mr-2 text-primary">Email : </span>
                 daniel.lee0218929@gmail.com
               </h2>
-              <h2 className="font-medium">
+              {/* <h2 className="font-medium">
                 <span className="mr-2 text-primary">Address : </span>Karawang, Jawa Barat, Indonesia
-              </h2>
+              </h2> */}
               <a
-                href="https://drive.google.com/file/d/19rnbukAhf9oPhadMhsvI3xnWF6FIYeMT/view?usp=share_link"
+                href="https://drive.google.com/file/d/1k1xCvPtzKuugnjJR4eTWOULjpwHUGoPL/view?usp=sharing"
                 target="blank"
               >
                 <div className="flex justify-center md:justify-start translate-y-[60%] sm:translate-y-[-0%]">
@@ -125,7 +125,7 @@ const About = () => {
       <MySkill />
 
       {/* Education */}
-      <Education />
+      {/* <Education /> */}
     </div>
   );
 };

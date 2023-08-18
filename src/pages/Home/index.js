@@ -1,6 +1,6 @@
 import React from "react";
 import Project from "../Project";
-import Contact from "../Contact";
+// import Contact from "../Contact";
 import { Banner, Testimonial, Information, Service } from "../../components";
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
       <Project />
       {/* <Testimonial /> */}
       <Information />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 };

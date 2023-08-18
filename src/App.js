@@ -20,7 +20,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/project" element={<Project />} />
           <Route path="/project/:id" element={<ProjectDetails />} />
-          <Route path="/contact" element={<Contact />} />
+          {/* <Route path="/contact" element={<Contact />} /> */}
           <Route path="/blog" element={<Blog />}>
             <Route index element={<BlogIndex />} />
             <Route path=":blog_path" element={<BlogDetail />} />
@@ -31,7 +31,7 @@ function App() {
           <Route path="/employee-salary-management" element={<EmployeeSalaryManagementRepair />} />
         </Routes>
       </Suspense>
-      {isFalse || <Footer />}
+      {/* {isFalse || <Footer />} */}
     </>
   );
 }
