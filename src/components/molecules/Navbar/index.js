@@ -25,7 +25,6 @@ export default function Navbar() {
     { title: "About", link: "/about", icon: <RiFolderInfoFill /> },
     { title: "Project", link: "/project", icon: <MdWork /> },
     // { title: "Contact", link: "/contact", icon: <RiContactsBook2Fill /> },
-    { title: "Blog", link: "/blog", icon: <ImBlog /> },
   ];
   const activeLink = ({ isActive }) => {
     return {
@@ -64,7 +63,7 @@ export default function Navbar() {
       <div className="w-full flex items-center justify-between px-3 md:px-24 py-3">
         <div>
           <Link to="/">
-            <h1 className="text-2xl text-primary font-lobster">Daniel Lee</h1>
+            <h1 className="text-2xl text-primary font-lobster"> Andrii Koshil</h1>
           </Link>
         </div>
         <div>
@@ -80,19 +79,6 @@ export default function Navbar() {
                 </NavLink>
               </li>
             ))}
-
-            <a
-              className="inline-block ml-4"
-              href="https://drive.google.com/file/d/1k1xCvPtzKuugnjJR4eTWOULjpwHUGoPL/view?usp=sharing"
-              target="blank"
-            >
-              <PrimaryBtn>
-                <span>Resume</span>
-                <span>
-                  <FaDownload />
-                </span>
-              </PrimaryBtn>
-            </a>
           </ul>
           <div className="block lg:hidden">
             <button onClick={toggleDrawer} className="btn btn-ghost text-white">
@@ -128,24 +114,10 @@ export default function Navbar() {
                     </NavLink>
                   </li>
                 ))}
-                <li className="text-center m-4">
-                  <a
-                    className="inline-block w-full"
-                    href="https://drive.google.com/file/d/1k1xCvPtzKuugnjJR4eTWOULjpwHUGoPL/view?usp=sharing"
-                    target="blank"
-                  >
-                    <button className="primary-button w-full text-white">
-                      <span>Resume</span>
-                      <span>
-                        <FaDownload />
-                      </span>
-                    </button>
-                  </a>
-                </li>
               </ul>
               <div className="text-center">
                 <p className="text-neutral">
-                  &copy; Copyright 2023, Daniel Lee. All Rights Reserved
+                  &copy; Copyright 2023,  Andrii Koshil. All Rights Reserved
                 </p>
               </div>
             </Drawer>

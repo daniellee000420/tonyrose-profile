@@ -16,7 +16,6 @@ const Items = [
       "About",
       "Package",
       "Contact",
-      "Blog",
       "A user can order through the Admin for Website services, Mobile Applications, Branding & Creative Content, as well as Internet Marketing & Advertising.",
       "Responsive Design",
       "404 Page and many more.",

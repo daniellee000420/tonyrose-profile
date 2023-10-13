@@ -26,9 +26,10 @@ const About = () => {
           </h1>
           <BottomLine />
         </motion.div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
+
           <motion.div
-            initial={{ x: -200, opacity: 0 }}
+            className=""
+            initial={{ opacity: 0 }}
             animate={{
               x: 0,
               opacity: 1,
@@ -36,23 +37,13 @@ const About = () => {
             }}
           >
             <img
-              src="https://i.ibb.co/7Jbw636/non-background-picture1.png"
-              alt="Daniel Lee"
-              className="p-12 w-70 h-70 transform translate-y-[-12%]"
-              title="Daniel Lee"
+              src="https://i.ibb.co/q1TWjV3/non-background-picture1.png"
+              alt=" Andrii Koshil"
+              title=" Andrii Koshil"
+              style={{width:'10%'}}
             />
+            <h1 className="text-4xl font-semibold mb-4 text-center translate-y-[-380%] sm:translate-y-[-0%] sm:text-3xl sm:mb-2 md:text-left"> Andrii Koshil</h1>
 
-          </motion.div>
-          <motion.div
-            className=""
-            initial={{ x: 200, opacity: 0 }}
-            animate={{
-              x: 0,
-              opacity: 1,
-              transition: { duration: 1, delay: 1.25 },
-            }}
-          >
-            <h1 className="text-4xl font-semibold mb-4 text-center translate-y-[-380%] sm:translate-y-[-0%] sm:text-3xl sm:mb-2 md:text-left">Daniel Lee</h1>
             <div className="my-8">
               <TypeAnimation
                 className="text-2xl text-primary font-bold text-center translate-y-[-500%] sm:translate-y-[-0%]  sm:text-2xl sm:mb-2 md:text-left"
@@ -90,35 +81,17 @@ const About = () => {
             </p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-4 mt-4 text-center translate-y-[-50%] sm:translate-y-[-0%] sm:mb-2 md:text-left ">
               <h2 className="font-medium">
-                <span className="mr-2 text-primary">Name : </span>Daniel Lee
+                <span className="mr-2 text-primary">Name : </span> Andrii Koshil
               </h2>
               {/* <h2 className="font-medium">
                 <span className="mr-2 text-primary">Phone : </span>+62 823 6148 4992
               </h2> */}
               <h2 className="font-medium">
                 <span className="mr-2 text-primary">Email : </span>
-                daniel.lee0218929@gmail.com
+                tonyroseman217@gmail.com
               </h2>
-              {/* <h2 className="font-medium">
-                <span className="mr-2 text-primary">Address : </span>Karawang, Jawa Barat, Indonesia
-              </h2> */}
-              <a
-                href="https://drive.google.com/file/d/1k1xCvPtzKuugnjJR4eTWOULjpwHUGoPL/view?usp=sharing"
-                target="blank"
-              >
-                <div className="flex justify-center md:justify-start translate-y-[60%] sm:translate-y-[-0%]">
-                  <button className="primary-button">
-                    <span>My Resume</span>
-                    <span>
-                      <FaDownload />
-                    </span>
-                  </button>
-                </div>
-
-              </a>
             </div>
           </motion.div>
-        </div>
       </div>
 
       {/* My Skill */}

@@ -93,17 +93,8 @@ const ProjectDetails = () => {
             </span>
           </PrimaryBtn>
         </a>
-        <a href={item?.codeLink} target="blank">
-          <SecondaryBtn>
-            <span>Source Code</span>
-            <span>
-              <FaCode />
-            </span>
-          </SecondaryBtn>
-        </a>
       </div>
     </div>
   );
 };
-
 export default ProjectDetails;

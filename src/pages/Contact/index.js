@@ -139,7 +139,7 @@ const Contact = () => {
           <h2 className="text-2xl font-medium">Contact Info</h2>
           <div className="flex items-center my-6">
             <FaUserAlt className="text-2xl mr-8 hover:text-primary cursor-pointer duration-300"></FaUserAlt>
-            <h3 className="font-medium text-primary">Daniel Lee</h3>
+            <h3 className="font-medium text-primary"> Andrii Koshil</h3>
           </div>
           {/* <div className="flex items-center my-6">
             <FaPhoneAlt className="text-2xl mr-8 hover:text-primary cursor-pointer duration-300"></FaPhoneAlt>
@@ -147,7 +147,7 @@ const Contact = () => {
           </div> */}
           <div className="flex items-center my-6">
             <MdEmail className="text-3xl mr-8 hover:text-primary cursor-pointer duration-300"></MdEmail>
-            <h3 className="font-medium text-primary">daniel.lee0218929@gmail.com</h3>
+            <h3 className="font-medium text-primary">tonyroseman217@gmail.com</h3>
           </div>
           {/* <div className="flex items-center my-6">
             <FaLocationArrow className="text-2xl mr-8 hover:text-primary cursor-pointer duration-300"></FaLocationArrow>

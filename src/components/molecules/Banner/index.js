@@ -26,7 +26,7 @@ const Banner = () => {
         transition={{ duration: 1 }}
       >
         <h2 className="text-neutral text-xl font-medium translate-y-[-90%] sm:translate-y-[-0%]">Hello, I'm</h2>
-        <h1 className="text-4xl font-semibold mb-0 translate-y-[-50%] sm:translate-y-[-0%]">Daniel Lee</h1>
+        <h1 className="text-4xl font-semibold mb-0 translate-y-[-50%] sm:translate-y-[-0%]"> Andrii Koshil</h1>
         <div className="my-4">
           <TypeAnimation
             className="text-2xl text-primary font-bold translate-y-[-80%] sm:translate-y-[-0%]"
@@ -55,17 +55,7 @@ const Banner = () => {
         </p>
 
         <div className="flex items-center translate-y-[-60%] sm:translate-y-[-0%]">
-          <a
-            href="https://drive.google.com/file/d/1k1xCvPtzKuugnjJR4eTWOULjpwHUGoPL/view?usp=sharing"
-            target="blank"
-          >
-            <button className="primary-button">
-              <span>My Resume</span>
-              <span>
-                <FaDownload />
-              </span>
-            </button>
-          </a>
+ 
           <Link to="/about" className="ml-4">
             <SecondaryBtn>
               <span>About Me</span>

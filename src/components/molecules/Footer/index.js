@@ -93,14 +93,6 @@ const Footer = () => {
           >
             Dribbble
           </a>
-          <a
-            className="text-xl inline-bloc mx-6 text-neutral"
-            href="https://drive.google.com/file/d/1k1xCvPtzKuugnjJR4eTWOULjpwHUGoPL/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Resume
-          </a>
         </div>
 
         <div className="w-full h-[2px] bg-gray-600"></div>
@@ -113,7 +105,7 @@ const Footer = () => {
               className="text-primary hover:underline"
               target="blank"
             >
-              Daniel Lee
+               Andrii Koshil
             </a>
           </p>
         </div>
