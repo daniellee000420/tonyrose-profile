@@ -91,6 +91,31 @@ const About = () => {
                 tonyroseman217@gmail.com
               </h2>
             </div>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-4 mt-4 text-center translate-y-[-50%] sm:translate-y-[-0%] sm:mb-2 md:text-left ">
+              <h2 className="font-medium">
+                <span className="mr-2 text-primary">Address : </span> street Komunalna building 17
+              </h2>
+              {/* <h2 className="font-medium">
+                <span className="mr-2 text-primary">Phone : </span>+62 823 6148 4992
+              </h2> */}
+              <h2 className="font-medium">
+                <span className="mr-2 text-primary">City/Country : </span>
+                Bakhmach, Ukraine
+              </h2>
+            </div>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-4 mt-4 text-center translate-y-[-50%] sm:translate-y-[-0%] sm:mb-2 md:text-left ">
+              <h2 className="font-medium">
+                <span className="mr-2 text-primary">Postal/ZIP code : </span> 16500
+              </h2>
+              {/* <h2 className="font-medium">
+                <span className="mr-2 text-primary">Phone : </span>+62 823 6148 4992
+              </h2> */}
+              <h2 className="font-medium">
+                <span className="mr-2 text-primary">phone number : </span>
+                +380 633587403
+
+              </h2>
+            </div>                        
           </motion.div>
       </div>
 
