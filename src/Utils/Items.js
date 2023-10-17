@@ -1,4 +1,5 @@
 const Items = [
+
   {
     id: 1,
     mainImage: "https://i.ibb.co/dMjKxPZ/1.png",
@@ -459,6 +460,41 @@ const Items = [
     // liveLink: "https://berthutapea.vercel.app/mern-blog",
     codeLink: "https://github.com/masterdev0218/mern-blog",
   },  
+  {
+    id: 11,
+    mainImage: "https://i.ibb.co/Cwrvvfs/9.png",
+    img: [
+      "https://i.ibb.co/Cwrvvfs/9.png",
+      "https://i.ibb.co/93Fb87m/1.png",
+      "https://i.ibb.co/CbxsN15/2.png",
+      "https://i.ibb.co/9tGyYmy/3.png",
+      "https://i.ibb.co/wBnwKnN/4.png",
+      "https://i.ibb.co/2t5crjx/5.png",
+      "https://i.ibb.co/zXrxb0y/6.png",
+      "https://i.ibb.co/DLP6sYC/7.png",
+      "https://i.ibb.co/8mLFRkx/8.png",
+    ],
+    features: [
+      "Dashboard",
+      "Business Setting",
+      "System Management",
+      "LCBO, Shop&Pay, Food, Mobile App Order",
+      "Responsive Design",
+      "404 Page and many more.",
+    ],
+    technologies: [
+      "Laravel",
+      "Css",
+      "Flutter",
+      "Javascript",
+      "My SQL",
+    ],
+    title: "DDRadar",
+    description:
+      "This app has Admin, User, Delivery role and is delivery app for customers",
+    category: "business",
+    liveLink: "https://platform.ddradar.com/",
+  },
 ];
 
 export default Items;
